@@ -54,7 +54,7 @@ This is the contract.
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/prokerja.git
+git clone https://github.com/Pedhot-Dev/ProKerja.git
 cd prokerja
 composer install
 chmod +x bin/prokerja or php bin/prokerja
