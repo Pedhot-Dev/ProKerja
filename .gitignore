@@ -1,0 +1,30 @@
+# Composer
+/vendor/
+/composer.lock
+
+# SQLite database
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# PHPUnit / Test cache
+/.phpunit.result.cache
+
+# Temporary files
+/tmp/
+.cache/
+
+# CLI binaries
+/prokerja.phar
+
+# Environment
+.env
+.env.*

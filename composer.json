@@ -1,0 +1,21 @@
+{
+  "name": "pedhot-dev/prokerja",
+  "description": "A lightweight PHP job & queue framework",
+  "version": "0.1.0",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Pedhot-Dev"
+    }
+  ],
+  "require": {
+    "php": "^8",
+    "symfony/console": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProKerja\\": "src/"
+    }
+  }
+}

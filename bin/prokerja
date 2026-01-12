@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use ProKerja\Command\DeclareCommand;
+use ProKerja\Command\RealizationStartCommand;
+use ProKerja\Command\ReportCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('ProKerja', '1.0.0');
+
+$application->addCommand(new DeclareCommand());
+$application->addCommand(new RealizationStartCommand());
+$application->addCommand(new ReportCommand());
+
+$application->run();
